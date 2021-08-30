@@ -66,9 +66,14 @@
 }
 
 #header{
-  background-color: #161315;
   clip-path: polygon(0 0%, 100% 0%, 100% 95%, 0% 100%);
   padding-bottom: 15%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.9), 
+    rgba(0, 0, 0, 0.9)
+  ), url(Images/code.jpg);
+  background-repeat: none;
+  background-size: cover;
 }
 .header-content{
   width: 85%;
@@ -92,14 +97,14 @@
 }
 .heading{
   display: flex;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .button {
   color: #fff;
   background-color: #aa3a3a;
   border-radius: 100px;
-  padding: 4% 6%;
-  width: 50%;
+  padding: 2%;
+  width: 30%;
   margin-top: 20px;
   box-sizing: border-box;
   border-style:none;
@@ -142,7 +147,7 @@
 width: 100%;
 }
 .column-2{
-  padding: 4% 0;
+  /* padding: 4% 0; */
 }
 .column-2-h1{
 font-size: 2.5rem;
@@ -335,8 +340,13 @@ color: #aa3a3a;
   padding: 10% 0;
   text-align: center;
 }
+
 .featured-cont{
   margin: 40px auto;
+}
+.featured-row{
+  width: 100%;
+  margin: 0 auto
 }
 .button-3{
   width: 70%;
