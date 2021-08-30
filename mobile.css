@@ -24,6 +24,10 @@ padding-right: 5%;
   .header-image{
       padding: 7% 0;
   }
+  .featured{
+    width: 95%;
+    margin: 0 auto;
+  }
   .testimonial-p {
     font-size: 1.5rem;
   }
