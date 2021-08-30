@@ -25,9 +25,12 @@ padding-right: 5%;
       padding: 7% 0;
   }
   .featured{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
+  /* .featured .main-h2:{
+    padding: 12%;
+  } */
   .testimonial-p {
     font-size: 1.5rem;
   }

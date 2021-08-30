@@ -402,14 +402,20 @@ form {
 .div-form{
   display: flex;
 }
+.div-form div{
+  width: 100%;
+ 
+}
 .contact-me .divform-input{
-  width: 475px;
+  width: 100%;
   padding: 5%;
+  border-style: none;
 }
 .divform-input, textarea{
   background-color:  #f6f5f1;
   border-radius: 5px;
   border: 2px solid rgb(219, 212, 212);
+  border-style: none;
 }
 .div-form div{
   margin: 10px 60px 20px 0;
