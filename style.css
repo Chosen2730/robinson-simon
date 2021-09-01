@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p{
+  font-family: 'Padauk', sans-serif;
+}
+
 .whatsapp{
   position: fixed;
   bottom: 15vh;
